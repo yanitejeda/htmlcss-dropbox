@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+  }
+  
+  
+  main {
+    margin-top: 70px;
+  }
+  
+  footer {
+  }
+  
+  h1 {
+    font-size: 77px;
+  }
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-size: 25px;
+  }
+  
+  h4,
+  h5 {
+    font-size: 16px;
+  }
+  
+  /************************************************
+  * Classi layout
+  ************************************************/
+  .container-large {
+    max-width: 1367px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .container {
+    max-width: 1010px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  
+  [class*="col_"] {
+    float: left;
+  }
+  
+  .col_1_9 {
+    width: calc(100% / 9);
+  }
+  
+  .col_2_9 {
+    width: calc(100% / 9 * 2);
+  }
+  
+  .col_3_9 {
+    width: calc(100% / 9 * 3);
+  }
+  
+  .col_4_9 {
+    width: calc(100% / 9 * 4);
+  }
+  
+  .col_5_9 {
+    width: calc(100% / 9 * 5);
+  }
+  
+  .col_6_9 {
+    width: calc(100% / 9 * 6);
+  }
+  
+  /************************************************
+  * Classi Utilities
+  ************************************************/
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
