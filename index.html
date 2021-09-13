@@ -1,34 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <title>Dropbox</title>
 
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
-            <div> <!--sezione sinistra--></div>
-            <div> <!--sezione destra--></div>
+        <nav  class="navbar">
+            <div class="navbar-left">
+                <ul>
+                    <li><a href="#"> <img src="img/logo-small.png" alt="Dropbox logo"></a></li>
+                    <li><a href="#">Perchè Dropbox?</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                    <li><a href="#">Piani e prezzi</a></li>
+                </ul>
+            </div>
+            <div class="navbar-right"> 
+                <ul>
+                    <li><a href="#"> Supporto</a></li>
+                    <li><a href="#">Contatta l'ufficio vendite</a></li>
+                    <li><a href="#">Accedi</a></li>
+                    <li><a href="#"></a> <span class="btn-back-blu">Inizia</span></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
-        <div class="conteiner">
+        <div class="container-large">
             <div class="conteiner-hero">
                 <div>
-                    <!--sezione del testo e della immga-->
+                    <div class="tittle-hero">
+                        <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                    </div>
+
+                    <div class="hero row">
+                        <div class="text-hero col_4_9">
+                            <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. 
+                                Dropbox Business è piu di uno spazio di archiviazione sicuro: è un mondo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                            </p>
+                            <a href="#"><span class="btn-back-blu">Inizia la tua prova gratuita</span></a>
+                            <a href="#">Annulla in qualsiasi momento</a>
+                        </div>
+
+                        <div class="img-hero col_5_9">
+                                <img src="img/jumbo.png" alt="">
+                        </div>
+
+                    </div>
+
+
                 </div>
             </div>
+        </div>
+        
+        <div class="conteiner">
             <div class="conteiner-dbbussiness">
                 <div class="dbbussines-header"></div>
                 <div class="dbbussines-main"></div>
-
+    
             </div>
+
         </div>
     </main>
     <footer></footer>
