@@ -85,11 +85,16 @@
     clear: both;
   }
   
-li{
+header li{
   list-style: none;
   display: inline-block;
   vertical-align: middle;
   }
+
+li{
+list-style: none;
+    
+ }
 
   a{
       text-decoration: none;
@@ -103,6 +108,7 @@ li{
     left: 0;
     position: fixed;
     background-color: white;
+    z-index: 99;
   }
 
   .navbar{
@@ -144,11 +150,12 @@ li{
 }
 .conteiner-hero{
     width: 90%;
-    padding-top: 50px;
     margin: 0 auto;
+    position: relative;
+    top: 70px;
 }
 
-.row{
+.row::after{
     content: "";
     display: table;
     clear: both;
@@ -172,4 +179,45 @@ li{
 
 .text-hero a{
     display: block;
+}
+
+.row-business{
+    padding-top: 90px;
+    width: 90%;
+    margin: auto;
+}
+
+
+.row-business li{
+    padding: 10px 0;
+}
+
+
+
+.user{
+  text-align: center;
+}
+
+.fas{
+  color: #0061FF;
+}
+
+.col_3_9 a{
+  color: #0061FF;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.single-row{
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.single-row.icon{
+  text-align: center;
+  padding: 10px;
+}
+
+.row-business .col_3_9{
+  padding: 20px;
 }
