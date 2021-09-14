@@ -79,11 +79,6 @@
   /************************************************
   * Classi Utilities
   ************************************************/
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
   
 header li{
   list-style: none;
@@ -96,95 +91,99 @@ list-style: none;
     
  }
 
-  a{
-      text-decoration: none;
-      color: black;
-      line-height: 25px;
-      padding: 15px;
-  }
-  header{
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background-color: white;
-    z-index: 99;
-  }
+a{
+    text-decoration: none;
+    color: black;
+    line-height: 25px;
+    padding: 15px;
+}
+header{
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: white;
+  z-index: 99;
+}
 
-  .navbar{
-    content: "";
-    display: table;
-    clear: both;
+.navbar{
+  content: "";
+  display: table;
+  clear: both;
 
-    width: 100%;
-    padding: 25px;
-      
-  }
+  width: 100%;
+  padding: 25px;   
+}
 
-  .navbar-left{
-      float: left;
-      width: 50%;
-  }
+.navbar-left{
+  float: left;
+  width: 50%;
+}
 
-  .navbar-right{
-      text-align: right;
-      float: right;
-      width: 50%;
-  }
-
-  .navbar image{
-      width: 90%;
+.navbar-right{
+  text-align: right;
+  float: right;
+  width: 50%;
   }
 
-  .btn-back-blu{
-      background-color: #0061FF;
-      color: white;
-      padding: 5px 10px;
-  }
+.navbar image{
+  width: 90%;
+}
 
-/* main*/
+.btn-back-blu{
+  background-color: #0061FF;
+  color: white;
+  padding: 5px 10px;
+}
 
+  /************************************************
+  *hero
+  ************************************************/
 
 .hero-background{
-    background-color: #B4D0E7 ;
+  background-color: #B4D0E7 ;
 }
 .conteiner-hero{
-    width: 90%;
-    margin: 0 auto;
-    position: relative;
-    top: 70px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
 }
 
 .row::after{
-  content: "";
-  clear: both;
-  display: table;
+content: "";
+clear: both;
+display: table;
 }
 .hero{
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .img-hero img{
-    width: 100%;
+  width: 100%;
 }
 
 .text-hero, .img-hero{
-    float: left;
+  float: left;
 }
 
 .text-hero p{
-    padding-left: 15px;
-    padding-bottom: 25px;
+  padding-left: 15px;
+  padding-bottom: 25px;
 }
 
 .text-hero a{
-    display: block;
+  display: block;
 }
 
+  /************************************************
+  * main
+  ************************************************/
+
 .row-business{
-    padding-top: 90px;
-    width: 90%;
-    margin: auto;
+  padding-top: 90px;
+  width: 90%;
+  margin: auto;
 }
 
 
@@ -193,11 +192,8 @@ list-style: none;
 }
 
 .row-business li{
-    padding: 10px 0;
+  padding: 10px 0;
 }
-
-
-
 
 .user{
   text-align: center;
@@ -240,9 +236,6 @@ ul h4{
   margin-right: -20px;
 }
 
-.row .col_6_9{
-  float: left;
-}
 
 .row .col_2_9{
   float: right;
@@ -263,7 +256,7 @@ ul h4{
 }
 
 
-.parteners-part .col_5_9, .parteners-part .col_4_9, .business-seciton, .business-section.col_3_9{
+.business-seciton{
   float: left;
 } 
 
