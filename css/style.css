@@ -145,7 +145,7 @@ list-style: none;
 /* main*/
 
 
-.container-large{
+.hero-background{
     background-color: #B4D0E7 ;
 }
 .conteiner-hero{
@@ -156,9 +156,9 @@ list-style: none;
 }
 
 .row::after{
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  clear: both;
+  display: table;
 }
 .hero{
     padding-top: 50px;
@@ -188,9 +188,14 @@ list-style: none;
 }
 
 
+.row-business-choice form{
+  padding: 20px 0;
+}
+
 .row-business li{
     padding: 10px 0;
 }
+
 
 
 
@@ -208,10 +213,10 @@ list-style: none;
   padding: 0;
 }
 
-.single-row{
-  border: 1px solid black;
-  padding: 20px;
+ul h4{
+  padding: 10px 0;
 }
+
 
 .single-row.icon{
   text-align: center;
@@ -220,4 +225,70 @@ list-style: none;
 
 .row-business .col_3_9{
   padding: 20px;
+}
+
+.far, .fa-user-plus, .fa-pencil-alt{
+  color: black;
+}
+
+.offers{
+  border: 1px solid lightgrey;
+  padding: 20px;
+}
+.row-offers{
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.row .col_6_9{
+  float: left;
+}
+
+.row .col_2_9{
+  float: right;
+}
+
+.enterprise, .parteners-part{
+  padding-bottom: 50px;
+}
+
+
+.enterprise-part{
+  border: 1px solid lightgrey;
+  padding: 20px;
+}
+
+.enterprise-part h3{
+  padding: 20px 0;
+}
+
+
+.parteners-part .col_5_9, .parteners-part .col_4_9, .business-seciton, .business-section.col_3_9{
+  float: left;
+} 
+
+.parteners-part img{
+  width: 90%;
+}
+
+.card-business-section img{
+  width: 100%;
+}
+
+.business .row{
+  margin-left: -70px;
+  margin-right: -70px;
+}
+
+.card-business-section{
+  padding: 40px 70px;
+}
+.client{
+  text-decoration: underline;
+  color: #0061FF;
+  padding: 0;
+}
+
+.team h2{
+  padding: 50px 20px;
 }
