@@ -14,6 +14,9 @@
   main {
     margin-top: 90px;
   }
+  footer{
+    background-color: black;
+  }
 
   h1 {
     font-size: 77px;
@@ -74,6 +77,11 @@
   
   .col_6_9 {
     width: calc(100% / 9 * 6);
+  }
+
+
+  .col_1_5 {
+    width: calc(100% / 5);
   }
   
   /************************************************
@@ -330,3 +338,40 @@ ul h4{
   right: 20px;
   color: #000;
 }
+
+/************************************************
+  * footer
+  ************************************************/
+
+.footer-item{
+  color: white;
+  padding: 70px 0;
+}
+
+
+.footer-contents h4{
+  padding-bottom: 20px;
+}
+
+.footer-contents li{
+  padding-bottom: 10px;
+}
+.lan{
+  padding: 0 2px;
+}
+
+.nation, .nation .fas{
+  color:lightgrey;
+}
+
+.nation::before{
+  content: "";
+  border: 1px solid lightgrey;
+  width: 50px;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+  }
