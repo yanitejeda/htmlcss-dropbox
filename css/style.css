@@ -140,7 +140,7 @@ header{
   *hero
   ************************************************/
 
-.hero-background{
+.hero-background, .parteners-background{
   background-color: #B4D0E7 ;
 }
 .conteiner-hero{
@@ -264,8 +264,10 @@ ul h4{
   width: 90%;
 }
 
+
 .card-business-section img{
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .business .row{
@@ -284,4 +286,28 @@ ul h4{
 
 .team h2{
   padding: 50px 20px;
+}
+
+.link-white{
+  text-align: right;
+    float: right;
+    padding: 9px 15px;
+    background-color: white;
+}
+
+.partener-text h2{
+  color: #61082B;
+}
+
+.partener-text{
+  padding-top: 50px;
+}
+.parteners-text-section{
+  position: absolute;
+  right: 0;
+  width: 90%;
+}
+
+.parteners-text{
+  position: relative;
 }
