@@ -239,8 +239,6 @@ ul h4{
 }
 
 
-
-
 .single-row.icon{
   text-align: center;
   margin-left: -20px;
@@ -291,6 +289,15 @@ padding-top: 20px;
 
 .enterprise{
   line-height: 40px;
+}
+
+.enterprise .col_2_9{
+  position: relative;
+}
+
+.enterprise span{
+  top: 20px;
+  position: absolute;
 }
 
 .enterprise p{
@@ -508,21 +515,26 @@ padding-top: 20px;
 }
 
 .nation, .nation .fas{
-  color:lightgrey;
+  color:#999999;
 }
 
 .nation{
-  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 
 
 .nation:before{
   content: " ";
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    display: table;
-    width: 70px;
-    color: #E6E6E7;
+  border-top-style: solid;
+  border-top-width: 2px;
+  display: table;
+  width: 100px;
+  color: #999999;
+  padding-bottom: 50px;
   
+}
+
+.up-arrow{
+  vertical-align: -5px;
 }
