@@ -145,7 +145,7 @@ header{
 .btn-back-blu{
   background-color: #0061FF;
   color: white;
-  padding: 5px 10px;
+  padding: 7px 14px;
 }
 
   /************************************************
@@ -187,6 +187,12 @@ display: table;
   display: block;
 }
 
+.fa-arrow-down:before {
+  content: "\f063";
+  color: black;
+  font-size: 40px;
+  padding: 10px;
+}
   /************************************************
   * main
   ************************************************/
@@ -225,8 +231,11 @@ display: table;
   padding: 0;
 }
 
-ul h4, .single-row ul{
+ul h4{
   padding: 10px 0;
+}
+.single-row ul{
+  padding: 20px 0;
 }
 
 
@@ -234,10 +243,9 @@ ul h4, .single-row ul{
 
 .single-row.icon{
   text-align: center;
-  padding: 10px;
   margin-left: -20px;
   margin-right: -20px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   border-bottom: 1px solid lightgrey;
 }
 
@@ -257,8 +265,22 @@ ul h4, .single-row ul{
   margin-left: -20px;
   margin-right: -20px;
 }
+.title-single-row{
+line-height: 30px;
+padding-top: 20px;
+}
 
+.less-important{
+  color: #6E7D8A;
+}
 
+.underscore{
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 20px;
+}
+.offers h5{
+  padding-top: 20px;
+}
 .row .col_2_9{
   float: right;
 }
@@ -267,14 +289,20 @@ ul h4, .single-row ul{
   padding-bottom: 50px;
 }
 
+.enterprise{
+  line-height: 40px;
+}
 
+.enterprise p{
+  font-size: small;
+}
 .enterprise-part{
   border: 1px solid lightgrey;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .enterprise-part h3{
-  padding: 20px 0;
+  padding-top: 20px;
 }
 
 
@@ -289,6 +317,7 @@ ul h4, .single-row ul{
 .parteners-text-section p{
   padding-top: 20px;
   padding-bottom: 30px;
+  line-height: 25px;
 
 }
 
@@ -296,7 +325,7 @@ ul h4, .single-row ul{
   color: black;
     border: 1px solid black;
     line-height: 25px;
-    padding: 10px 5px;
+    padding: 7px 14px;
 
 }
 
@@ -304,6 +333,10 @@ ul h4, .single-row ul{
 .card-business-section img{
   max-width: 100%;
   max-height: 100%;
+}
+
+.business-section-text h3{
+  padding-bottom: 20px;
 }
 
 .business .row{
@@ -438,7 +471,19 @@ ul h4, .single-row ul{
 }
 .box_img img{
   width: 30%;
+  padding-bottom: 20px;
 }
+
+.box_img::after{
+  content: " ";
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    display: table;
+    width: 70px;
+    color: #E6E6E7;
+
+}
+
 
 
 /************************************************
@@ -466,14 +511,18 @@ ul h4, .single-row ul{
   color:lightgrey;
 }
 
+.nation{
+  padding-top: 50px;
+}
 
 
 
 .nation:before{
-  content: "";
-  width: 100px;
-  height: 1px;
-  display: block;
-  margin-bottom: 50px;
-  color: lightgrey;
+  content: " ";
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    display: table;
+    width: 70px;
+    color: #E6E6E7;
+  
 }
