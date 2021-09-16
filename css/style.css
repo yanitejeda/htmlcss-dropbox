@@ -290,6 +290,7 @@ ul h4{
 .offers{
   border: 1px solid lightgrey;
   padding: 10px 20px;
+  min-height: 900px;
 }
 .row-offers{
   margin-left: -20px;
