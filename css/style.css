@@ -107,7 +107,22 @@ a{
     text-decoration: none;
     color: black;
     line-height: 25px;
-    padding: 15px;
+    padding: 7px 14px;
+}
+
+.navbar img{
+  vertical-align: middle;
+}
+
+.navbar a{
+  height: 0;
+  transition: 0.3s;
+}
+
+.navbar a:hover{
+  height: 30px;
+  background-color: #d6f0fa;
+  color: #0D2481;
 }
 header{
   width: 100%;
@@ -146,7 +161,18 @@ header{
   background-color: #0061FF;
   color: white;
   padding: 7px 14px;
+  border: 1px solid #0061FF;
+  transition: 0.3s;
 }
+
+.btn-back-blu:hover, .parteners-text-section a:hover, .link-white:hover{
+  
+  color: #0443a7;
+  background-color: #d6f0fa;
+  border-color:#0443a7 ;
+}
+
+
 
   /************************************************
   *hero
@@ -226,10 +252,16 @@ display: table;
 }
 
 .col_3_9 a{
-  color: #0061FF;
-  text-decoration: underline;
+ 
   padding: 0;
 }
+
+.underscore_blu{
+  color: #0061FF;
+  text-decoration: underline;
+}
+
+
 
 ul h4{
   padding: 10px 0;
@@ -366,9 +398,10 @@ padding-top: 20px;
 
 .link-white{
   text-align: right;
-    float: right;
-    padding: 9px 15px;
-    background-color: white;
+  float: right;
+  padding: 9px 15px;
+  background-color: white;
+  border: 1px solid white;
 }
 
 .prova-gratuita-text h2{
@@ -402,11 +435,7 @@ padding-top: 20px;
   padding: 30px 0;
 }
 
-.accordion-icon{
-  position: absolute;
-  right: 20px;
-  color: #000;
-}
+
 
 .adv-container{
   height: 30vw;
@@ -491,6 +520,32 @@ padding-top: 20px;
 
 }
 
+.accordion-question:focus .accordion-content{
+ overflow: auto;
+ height: 200px;
+
+}
+
+.accordion-content{
+  overflow: hidden;
+  height: 0;
+  line-height: 25px;
+  padding-top: 20px;
+  transition: all 0.3s;
+}
+
+.accordion-icon{
+  position: absolute;
+  right: 20px;
+  color: #000;
+  transform: rotateZ(0deg);
+  transition: transform 0.3s;
+}
+
+.accordion-question:focus .accordion-icon{
+  transform: rotateZ(180deg);
+
+}
 
 
 /************************************************
